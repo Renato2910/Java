@@ -13,6 +13,7 @@ public class Carro extends Veiculo {
 
 
 
+
     public int getNumeroPortas() {
         return numeroPortas;
     }
@@ -21,10 +22,13 @@ public class Carro extends Veiculo {
         this.numeroPortas = numeroPortas;
     }
 
-    public boolean ArCondicionado() {
+    public Boolean getArCondicionado() {
         return arCondicionado;
     }
 
+    public void setArCondicionado(Boolean arCondicionado) {
+        this.arCondicionado = arCondicionado;
+    }
     @Override
     public void realizarAcao() {
         System.out.println("O carro está acelerando.");

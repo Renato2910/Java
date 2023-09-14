@@ -8,9 +8,14 @@ public class Moto extends Veiculo {
         this.realizarAcao();
     }
 
-    public boolean PartidaEletrica() {
+    public boolean getPartidaEletrica() {
         return partidaEletrica;
     }
+
+    public void setPartidaEletrica(boolean partidaEletrica) {
+        this.partidaEletrica = partidaEletrica;
+    }
+
     @Override
     public void realizarAcao() {
         System.out.println("A moto está empinando.");

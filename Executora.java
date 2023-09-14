@@ -22,11 +22,11 @@ public class Executora {
         System.out.println("\nCarro criado com sucesso!");
         System.out.println("Informações do carro:");
 
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Preço: " + preco);
-        System.out.println("Numero de Portas:" + numeroPortas);
-        System.out.println("Possui Ar Condicionado:" + arCondicionado);
+        System.out.println("Marca: " + carro.getMarca());
+        System.out.println("Modelo: " + carro.getModelo());
+        System.out.println("Preço: " + carro.getPreco());
+        System.out.println("Numero de Portas:" + carro.getNumeroPortas());
+        System.out.println("Possui Ar Condicionado:" + carro.getArCondicionado());
         carro.realizarAcao();
     }
 
@@ -46,10 +46,10 @@ public class Executora {
 
         System.out.println("\nMoto criada com sucesso!");
         System.out.println("Informações da moto:");
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Preço: " + preco);
-        System.out.println("A moto tem partida elétrica:" + partidaEletrica);
+        System.out.println("Marca: " + moto.getMarca());
+        System.out.println("Modelo: " + moto.getModelo());
+        System.out.println("Preço: " + moto.getPreco());
+        System.out.println("A moto tem partida elétrica:" + moto.getPartidaEletrica());
         moto.realizarAcao();
     }
 
@@ -69,10 +69,10 @@ public class Executora {
 
         System.out.println("\nCaminhão criado com sucesso!");
         System.out.println("Informações do caminhão:");
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Preço: " + preco);
-        System.out.println("Capacidade de Carga:" + capacidadeCarga);
+        System.out.println("Marca: " + caminhao.getMarca());
+        System.out.println("Modelo: " + caminhao.getModelo());
+        System.out.println("Preço: " + caminhao.getPreco());
+        System.out.println("Capacidade de Carga:" + caminhao.getCapacidadeCarga());
         caminhao.realizarAcao();
     }
 
@@ -92,10 +92,10 @@ public class Executora {
 
         System.out.println("\nÔnibus criado com sucesso!");
         System.out.println("Informações do ônibus:");
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Preço: " + preco);
-        System.out.println("Capacidade de Passageiros:" + capacidadePassageiros);
+        System.out.println("Marca: " + onibus.getMarca());
+        System.out.println("Modelo: " + onibus.getModelo());
+        System.out.println("Preço: " + onibus.getPreco());
+        System.out.println("Capacidade de Passageiros:" + onibus.getCapacidadePassageiros());
         onibus.realizarAcao();
 
     }
